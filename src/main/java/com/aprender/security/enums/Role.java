@@ -1,4 +1,4 @@
-package com.aprender.security.user;
+package com.aprender.security.enums;
 
 public enum Role {
     USER,

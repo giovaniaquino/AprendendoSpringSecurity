@@ -1,5 +1,6 @@
-package com.aprender.security.user;
+package com.aprender.security.models;
 
+import com.aprender.security.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -19,7 +20,7 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Table(name = "tb_user")
-public class User implements UserDetails {
+public class UserModel implements UserDetails {
 
     @Id
     @GeneratedValue
